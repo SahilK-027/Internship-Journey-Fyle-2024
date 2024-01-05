@@ -83,12 +83,12 @@ Alrighty, Amigos, gather 'round for the next chapter of my Fyle internship adven
 After sending in my assignment, the waiting began. And oh boy, did I have to wait... for a whole week! But then, like a beacon of hope, an email arrived from one of the engineers at the Fyle team. They wanted to chat with me! 🎉
 
 ### Round 1: The Techie Talk
-We started by talking about Fyle and what the engineers do there. Then, the fun part began - the technical stuff! They asked me questions about how I make THE THINGS on the internet (front-end development, as they call it). We chatted about my assignment. And guess what? My sketches came to the rescue! I explained my code using those doodles, and it worked like magic! ✨
+We started by talking about Fyle and what the engineers do there. Then, the fun part began - the technical stuff! They asked me questions about how I make THE THINGS on the internet (front-end development, as they call it). We talked about my assignment. And guess what? My sketches came to the rescue! I explained my code using those doodles, and it worked like magic! ✨
 
 Now, here's the exciting part. They wanted to see any one of my past projects! I was so excited that I showed not just one, but TWO of my coolest projects - [Trinity-2023](https://trinity-2023.vercel.app/) and [AssembleScript](https://assemblescript.vercel.app/). Cleared this round easily!
 
 ### Round 2: The Chill Chat
-Next up, round two – the Non-techy + a dash of Tech. We chatted about my personality, how I see startups, my portfolio and some projects I tackled before. It was more like a friendly phone call than a serious interview. Can you believe it lasted an hour? But hey, it was all about sharing ideas and learning about each other. 😄
+Next up, round two – the Non-techy + a dash of Tech. We talked about my personality, how I see startups, my portfolio and some projects I tackled before. It was more like a friendly phone call than a serious interview. Can you believe it lasted an hour? But hey, it was all about sharing ideas and learning about each other. 😄
 
 ### Round 3: The Unexpected Round
 Picture this: after two rounds of cool chats, I thought my job interview adventure was coming to an end. But surprise, surprise - there was a third-round waiting for me! That's why I call it the Unexpected Round. 
