@@ -95,4 +95,4 @@ Picture this: after two rounds of cool chats, I thought my job interview adventu
 
 Here we talked about the awesome things Fyle offers to its workers and some cool perks, like extra treats in your lunchbox. It was different from the first two rounds. No tricky tech questions, instead, we talked about why Fyle? and what kind of cool things they do for their team members.
 
-And just like that, the Unexpected Round was over. It was a bit surprising because usually, people have two rounds, but Fyle threw in an extra one for a twist. They wanted to make sure I'd be a happy camper at Fyle, and that's how the Unexpected Round became a little surprise in my job interview adventure! 🌟😄
+And just like that, the Unexpected Round was over. It was a bit surprising because usually at fyle, people have two rounds, but Fyle threw in an extra one for a twist. They wanted to make sure I'd be a happy camper at Fyle, and that's how the Unexpected Round became a little surprise in my job interview adventure! 🌟😄
