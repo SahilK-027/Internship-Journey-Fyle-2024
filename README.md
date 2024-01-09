@@ -89,4 +89,32 @@ Picture this: after two rounds of cool chats, I thought my job interview adventu
 
 Here we talked about the awesome things Fyle offers to its workers and some cool perks, like extra treats in your lunchbox. It was different from the first two rounds. No tricky tech questions, instead, we talked about why Fyle? and what kind of cool things they do for their team members.
 
-And just like that, the Unexpected Round was over. It was a bit surprising because usually at fyle, people have two rounds, but Fyle threw in an extra one for a twist. They wanted to make sure I'd be a happy camper at Fyle, and that's how the Unexpected Round became a little surprise in my job interview adventure! 🌟😄
+And just like that, the Unexpected Round was over. It was a bit surprising because usually at Fyle, people have two rounds, but Fyle threw in an extra one for a twist. They wanted to make sure I'd be a happy camper at Fyle, and that's how the Unexpected Round became a little surprise in my job interview adventure! 🌟😄
+
+## 🔹 First Day at Fyle - Onboarding Adventure 🌟
+Let's move a little further, fellow travellers...(Yeah you are travelling this journey with me so far 😇)! Today marked the commencement of my internship at Fyle. The onboarding process kicked off with a delightful meeting with Yitzhak from the People Success team. In our scheduled call, he told me about the perks and benefits showered upon Fyle interns.
+
+### Perks and Benefits 🍔
+
+Fyle goes above and beyond to ensure interns have a stellar experience. Some highlights include:
+
+- Glamorous Gear: Interns are equipped with Apple MacBooks, the epitome of geekiness in the tech world. Talk about coding in style!
+- Fuel for Thought: Food and internet reimbursement, because well-fed brains code better. It's science, right?
+- Knowledge Boost: Yitzhak pointed me towards essential security and professional training courses to finish within the first week. A proactive approach to skill development!
+- Health First: Fyle acknowledges the importance of well-being by providing interns with their own health insurance coverage. Healthy interns, happy interns!
+
+### Unique Work Culture 🌈
+
+Here's the scoop on Fyle's work culture – they don't have an HR team! Why? Because at Fyle, people are not just resources; they are valued individuals. A refreshing perspective in the corporate landscape.
+
+### Leave Policy 🏝️
+
+Hold on to your hats – Fyle boasts a leave policy that's as cool as an Ice 🥶. Annual 20 leaves and unlimited sick leaves 😲. And get this, they actually encourage people to take leaves! Who would've thought that? 😲
+
+### Meet the Team 🤝
+
+Next on the agenda was meeting my manager, "Dimple." We delved into work, discussed about the codebase, and explored a mix of technical and non-technical topics.
+
+But wait, there's more! I also got introduced to my "Buddy," a lifeline in the world of Fyle. Aniruddha is my go-to person for any queries or questions that may arise during this exciting journey.
+
+And there you have it, the highlights of my first day at Fyle. Buckle up, as this internship journey promises more adventures, challenges, and aha moments! 🌟
