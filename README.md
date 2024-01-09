@@ -13,18 +13,12 @@ As I step into the realm of front-end development, I invite you to be a part of 
 ### About Fyle:
 Fyle is a Real-time expense management software for cards you already have. Fyle aims to reduce the time spent on business expense management. Nestled within everyday productivity tools like Gmail, Outlook, Slack, MS Teams, text messages, and email forwarding, Fyle provides employees with a unique and simple way of submitting expense receipts on the go. Fyle is also easy to use and significantly increases adoption rates for employees.
 
-- Website
-  [https://www.fylehq.com](https://www.fylehq.com)
-- LinkedIn
-  [https://www.linkedin.com/company/fyle/about/](https://www.linkedin.com/company/fyle/about/)
-- Industry
-  Software Development
-- Headquarters
-  Newark, Delaware
-- Founded
-  2016
-- Specialties
-  Paperless Expense Management, Expense Management, Travel Expense Management, Business Expense Management, Receipt Management, Spend Management, Expense Reporting, Credit Card Reconciliation, and Business Credit Card Management.
+- Website: [https://www.fylehq.com](https://www.fylehq.com)
+- LinkedIn: [https://www.linkedin.com/company/fyle/about/](https://www.linkedin.com/company/fyle/about/)
+- Industry: Software Development
+- Headquarters: Newark, Delaware
+- Founded: 2016
+- Specialties: Paperless Expense Management, Expense Management, Travel Expense Management, Business Expense Management, Receipt Management, Spend Management, Expense Reporting, Credit Card Reconciliation, and Business Credit Card Management.
 
 ### Building Blocks
 In this repository, you'll find more than just my experience. This repository is like my diary where I am going to write the challenges I've conquered, the bugs I've squashed, and the aha moments that define my path towards mastering the art of crafting seamless user interfaces.
