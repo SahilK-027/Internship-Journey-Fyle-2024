@@ -91,7 +91,7 @@ Here we talked about the awesome things Fyle offers to its workers and some cool
 
 And just like that, the Unexpected Round was over. It was a bit surprising because usually at Fyle, people have two rounds, but Fyle threw in an extra one for a twist. They wanted to make sure I'd be a happy camper at Fyle, and that's how the Unexpected Round became a little surprise in my job interview adventure! 🌟😄
 
-## 🔹 First Day at Fyle - Onboarding Adventure 🌟
+## 🔹 First Day at Fyle - Onboarding Adventure 🌟 (9 Jan 2024)
 Let's move a little further, fellow travellers...(Yeah you are travelling this journey with me so far 😇)! Today marked the commencement of my internship at Fyle. The onboarding process kicked off with a delightful meeting with Yitzhak from the People Success team. In our scheduled call, he told me about the perks and benefits showered upon Fyle interns.
 
 ### Perks and Benefits 🍔
@@ -118,3 +118,10 @@ Next on the agenda was meeting my manager, "Dimple." We delved into work, discus
 But wait, there's more! I also got introduced to my "Buddy," a lifeline in the world of Fyle. Aniruddha is my go-to person for any queries or questions that may arise during this exciting journey.
 
 And there you have it, the highlights of my first day at Fyle. Buckle up, as this internship journey promises more adventures, challenges, and aha moments! 🌟
+
+## 🔹 Milestone Unlocked: First Bug Fix 🐞 (11 Jan 2024)
+Just two days into my Fyle internship, I experienced a mini-victory that brought a big smile to my small coder's heart. My first contribution to the real-world production app! 🎉 Today, I successfully fixed my first bug! After my manager approved the PR it was time to test the fix.
+First, the local environment – check ✅
+Then, the staging environment – all good ✅
+Then, the test production environment- done 😇
+After thorough testing in local, staging, and production environments, my code patch is officially live in the real-world app. 🚀 Users, get ready to experience a better UI, courtesy of this newbie coder! 🤩🌐
