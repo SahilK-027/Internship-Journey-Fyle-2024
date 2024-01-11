@@ -120,8 +120,10 @@ But wait, there's more! I also got introduced to my "Buddy," a lifeline in the w
 And there you have it, the highlights of my first day at Fyle. Buckle up, as this internship journey promises more adventures, challenges, and aha moments! 🌟
 
 ## 🔹 Milestone Unlocked: First Bug Fix 🐞 (11 Jan 2024)
-Just two days into my Fyle internship, I experienced a mini-victory that brought a big smile to my small coder's heart. My first contribution to the real-world production app! 🎉 Today, I successfully fixed my first bug! After my manager approved the PR it was time to test the fix.
-First, the local environment – check ✅
-Then, the staging environment – all good ✅
-Then, the test production environment- done 😇
+Just two days into my internship and I have already experienced a mini-victory that brought a big smile to my small coder's heart. My first contribution to the real-world production app! 🎉 Today, I successfully fixed my first bug! After my manager approved the PR it was time to test the fix.
+
+- First, the local environment – check ✅
+- Then, the staging environment – all good ✅
+- Then, the test production environment- done 😇
+
 After thorough testing in local, staging, and production environments, my code patch is officially live in the real-world app. 🚀 Users, get ready to experience a better UI, courtesy of this newbie coder! 🤩🌐
