@@ -127,3 +127,13 @@ Just two days into my internship and I have already experienced a mini-victory t
 - Then, the test production environment- done 😇
 
 After thorough testing in local, staging, and production environments, my code patch is officially live in the real-world app. 🚀 Users, get ready to experience a better UI, courtesy of this newbie coder! 🤩🌐
+
+
+## 🔹 First size/M task ⚡️ (21 Jan 2024)
+Time to dive into my recent task at Fyle – my first encounter with a Size/M task. So, a few days ago I was making some awesome style tweaks in one `scss` file, and the moment I was about to hit that commit, bam! An error Appears 😮.
+
+Then I turn to the documentation, and finally stumble upon Slack threads where a few fellow coders had already faced the same issue. The culprit? A mismatch in stylelint versions between the `setup.sh` file and package.json. Ah, the classic dependency mismatch error.
+
+Not one to back down, I tried to fix the issue and proudly raise a PR. Victory is sweet, right? Well, not so fast. But just after I merged my PR one of our senior Engineers asked me to fix all rules that are deprecated and adding any that make sense. So this was my first task of dependency upgradation. I have never done it before, because generally in our personal projects we usually use latest versions of dependencies but in corporate first we forcefully install a specific version and then comes the task of Upgrading them and removing deprecations...You might be wondering Why I call it size/M task, because at Fyle we label tasks as size/s to size/xl i.e. from small to large.
+
+So there I go, fixing deprecations for stylelint.  What's next on the agenda? Well, brace yourselves, because the journey includes more dependency upgrades – think Eslint and a bunch of others. The coding adventure continues, and I'm here for it! 😅🚀
