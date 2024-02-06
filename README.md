@@ -132,8 +132,22 @@ After thorough testing in local, staging, and production environments, my code p
 ## 🔹 First size/M task ⚡️ (21 Jan 2024)
 Time to dive into my recent task at Fyle – my first encounter with a Size/M task. So, a few days ago I was making some awesome style tweaks in one `scss` file, and the moment I was about to hit that commit, bam! An error Appears 😮.
 
-Then I turn to the documentation, and finally stumble upon Slack threads where a few fellow coders had already faced the same issue. The culprit? A mismatch in stylelint versions between the `setup.sh` file and package.json. Ah, the classic dependency mismatch error.
+Then I turned to the documentation and finally stumbled upon Slack threads where a few fellow coders had already faced the same issue. The culprit? A mismatch in stylelint versions between the `setup.sh` file and package.json. Ah, the classic dependency mismatch error.
 
-Not one to back down, I tried to fix the issue and proudly raise a PR. Victory is sweet, right? Well, not so fast. But just after I merged my PR one of our senior Engineers asked me to fix all rules that are deprecated and adding any that make sense. So this was my first task of dependency upgradation. I have never done it before, because generally in our personal projects we usually use latest versions of dependencies but in corporate first we forcefully install a specific version and then comes the task of Upgrading them and removing deprecations...You might be wondering Why I call it size/M task, because at Fyle we label tasks as size/s to size/xl i.e. from small to large.
+Not one to back down, I tried to fix the issue and proudly raised a PR. Victory is sweet, right? Well, not so fast. But just after I merged my PR one of our senior Engineers asked me to fix all rules that are deprecated and adding any that make sense. So this was my first task of dependency upgradation. I have never done it before, because generally in our personal projects we usually use the latest versions of dependencies but in corporate first we forcefully install a specific version and then comes the task of Upgrading them and removing deprecations...You might be wondering Why I call it size/M task, because at Fyle we label tasks as size/s to size/xl i.e. from small to large.
 
 So there I go, fixing deprecations for stylelint.  What's next on the agenda? Well, brace yourselves, because the journey includes more dependency upgrades – think Eslint and a bunch of others. The coding adventure continues, and I'm here for it! 😅🚀
+
+
+## 🔹 First BR 🐞 (30 Jan 2024)
+So now it's time to solve the mystery behind the quirky bug that's been causing some serious field naming chaos in Fyle's expense management software. So, grab your magnifying glass, put on your coding hat, and let's dive into this bug-hunting!
+
+The problem was when a customer renamed a field in the Mileage category, and bam! All heck breaks loose. Suddenly, fields across different expense categories are changing their names. This isn't the expected behaviour, if someone is changing or customizing the name of a field in one form why the heck it should reflect that change in other places? 
+
+#### 🕵️‍♀️ The Mystery Unraveled: Here's what I uncovered:
+Our culprit? Undefined variables! Yep, turns out that when the default category isn't chosen in the expense fields by default it is used to show the last updated field.
+
+#### 🛠️ The Solutions:
+Customers have been facing this issue for months and I thought the fix would be hectic and long, but to my surprise, it was just a one-line fix 😅. By sorting the data based on sequence numbers, we can ensure the field names are displayed properly, that's it. Just one line of code `{order: seq.asc}`. And that's how I fixed it. It's in production now 😎, so no more inconsistency in naming will be faced by customers. 
+
+From this entire experience, I've learnt a significant lesson: no matter how big a problem may appear or how long it has haunted you, the solution often boils down to simplicity, and more often than not, it's just a one-liner. Don't let the daunting nature of a problem intimidate you; tackle it, and you might discover that victory is achieved through straightforward solutions and not through fancy ones. Until next time, happy coding, and may your bugs be few and far between!
