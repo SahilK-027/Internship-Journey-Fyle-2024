@@ -151,3 +151,19 @@ Our culprit? Undefined variables! Yep, turns out that when the default category 
 Customers have been facing this issue for months and I thought the fix would be hectic and long, but to my surprise, it was just a one-line fix 😅. By sorting the data based on sequence numbers, we can ensure the field names are displayed properly, that's it. Just one line of code `{order: seq.asc}`. And that's how I fixed it. It's in production now 😎, so no more inconsistency in naming will be faced by customers. 
 
 From this entire experience, I've learnt a significant lesson: no matter how big a problem may appear or how long it has haunted you, the solution often boils down to simplicity, and more often than not, it's just a one-liner. Don't let the daunting nature of a problem intimidate you; tackle it, and you might discover that victory is achieved through straightforward solutions and not through fancy ones. Until next time, happy coding, and may your bugs be few and far between!
+
+
+## 🔹 #1st Product Roadmap Initiative (q1_fix_alert_icon_issue) (24th Jan - 29th Feb)
+Let's dive into my recent task of fixing some icon issues at Fyle Software.
+
+So, imagine you have this cool app where you track your monthly expenses buying books, snacks, and all that jazz. Now for your convinience you have added few icons to identify particular expense in a glanse. Icons like cool badge for a special expense, different icons to identify expenses related to enjoyment or related to study and all that. So in fyle Expense Management App we have similar icons some related to expense receipt some related to amount, credit card split expense etc etc. But, guess what? These icons were causing a bit of confusion and needed a makeover. 
+
+Let's be little technical and know about what the real problem was. 🤓
+- Problem 1: We had extra unnecessary icons cluttering things up. Greyed-out icons, meant to represent potential issues like expense-related policy violations or flagged expenses, were always there, even when not needed. This wasted space and made things unclear.
+- Problem 2: It was like mixing up icons with totally different meanings on the same page. similar to mixing up the "electricity due" sticker with the "birthday celebration" sticker. Icons with distinct meanings, such as policy violations and split expenses, were grouped together, causing confusion among users.
+- Problem 3: Some important pages forgot to put stickers on them! Inconsistencies were observed in the presence of icons across different screens, leading to confusion for users.
+
+
+Now, I teamed up with some awesome folks - Dimple, Meeha and Mihir. Meeha did a fantastic job of creating the plan, while Mihir added the Figma designs. Dimple helped in coordinating between different teams. Then, it was my turn. It was my first product roadmap initiative, and I had to make sure everything happened just like we planned. From writing down the engineering doc. to testing out the code I had written, I made sure our new icons were in the right places.
+
+And guess what? It worked! The app looked cleaner, and everyone could understand their expenses better. Big shoutout to the team for making this journey awesome! 🚀 Now, every expense and report in Fyle has its own special icon, making it super easy for you to keep track. Until next time, happy expense tracking!
