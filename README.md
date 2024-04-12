@@ -85,7 +85,7 @@ Now, here's the exciting part. They wanted to see any one of my past projects! I
 Next up, round two – the Non-techy + a dash of Tech. We talked about my personality, how I see startups, my portfolio and some projects I tackled before. It was more like a friendly phone call than a serious interview. Can you believe it lasted an hour? But hey, it was all about sharing ideas and learning about each other. 😄
 
 ### Round 3: The Unexpected Round
-Picture this: after two rounds of cool chats, I thought my job interview adventure was coming to an end. But surprise, surprise - there was a third-round waiting for me! That's why I call it the Unexpected Round. 
+Picture this: after two rounds of cool chats, I thought my job interview adventure was coming to an end. But surprise, surprise - there was a third round waiting for me! That's why I call it the Unexpected Round. 
 
 Here we talked about the awesome things Fyle offers to its workers and some cool perks, like extra treats in your lunchbox. It was different from the first two rounds. No tricky tech questions, instead, we talked about why Fyle? and what kind of cool things they do for their team members.
 
@@ -156,14 +156,38 @@ From this entire experience, I've learnt a significant lesson: no matter how big
 ## 🔹 #1st Product Roadmap Initiative (q1_fix_alert_icon_issue) (24th Jan - 29th Feb)
 Let's dive into my recent task of fixing some icon issues at Fyle Software.
 
-So, imagine you have this cool app where you track your monthly expenses buying books, snacks, and all that jazz. Now for your convinience you have added few icons to identify particular expense in a glanse. Icons like cool badge for a special expense, different icons to identify expenses related to enjoyment or related to study and all that. So in fyle Expense Management App we have similar icons some related to expense receipt some related to amount, credit card split expense etc etc. But, guess what? These icons were causing a bit of confusion and needed a makeover. 
+So, imagine you have this cool app where you track your monthly expenses like buying books, snacks, and all that jazz. Now for your convenience, you have added a few icons to identify particular expenses in a glance. Icons like a cool badge for a special expense, different icons to identify expenses related to enjoyment or related to study and all that. So in the Fyle Expense Management App, we have similar icons some related to expense receipt some related to amount, credit card split expense etc etc. But, guess what? These icons were causing a bit of confusion and needed a makeover. 
 
-Let's be little technical and know about what the real problem was. 🤓
+Let's be a little technical and know about what the real problem was. 🤓
 - Problem 1: We had extra unnecessary icons cluttering things up. Greyed-out icons, meant to represent potential issues like expense-related policy violations or flagged expenses, were always there, even when not needed. This wasted space and made things unclear.
-- Problem 2: It was like mixing up icons with totally different meanings on the same page. similar to mixing up the "electricity due" sticker with the "birthday celebration" sticker. Icons with distinct meanings, such as policy violations and split expenses, were grouped together, causing confusion among users.
+- Problem 2: It was like mixing up icons with totally different meanings on the same page. similar to mixing up the "electricity due" sticker with the "birthday celebration" sticker. Icons with distinct meanings, such as policy violations and split expenses, were grouped, confusing users.
 - Problem 3: Some important pages forgot to put stickers on them! Inconsistencies were observed in the presence of icons across different screens, leading to confusion for users.
 
 
 Now, I teamed up with some awesome folks - Dimple, Meeha and Mihir. Meeha did a fantastic job of creating the plan, while Mihir added the Figma designs. Dimple helped in coordinating between different teams. Then, it was my turn. It was my first product roadmap initiative, and I had to make sure everything happened just like we planned. From writing down the engineering doc. to testing out the code I had written, I made sure our new icons were in the right places.
 
 And guess what? It worked! The app looked cleaner, and everyone could understand their expenses better. Big shoutout to the team for making this journey awesome! 🚀 Now, every expense and report in Fyle has its own special icon, making it super easy for you to keep track. Until next time, happy expense tracking!
+
+
+## 🔹 View report tab navigation (19 Mar 2024)
+Recently, a senior manager, Abhishek, brought to our attention a usability issue that had gone unnoticed for quite some time.
+
+Let me outline the problem first. 
+
+In the Fyle WebApp, for any expense report view, we have three navigation options:
+1. Expense Details
+2. Comments
+3. History
+ 
+By default, the Expense tab is selected. So, imagine you've navigated to the Comments tab and you're scrolling through a lengthy list of comments. Suddenly, due to a network issue or another unforeseen circumstance, the page refreshes. In such cases, the Fyle app used to reload the page and return you to the default Expense tab. This behaviour posed a significant inconvenience. The desired functionality is that when users are on any of the tabs—Expense, Comments, or History—if the page refreshes, they should be redirected to the section they were previously engaged with.
+
+Given my prior experience working in the Expense and Reports area during the last initiative, this task was assigned to me. To address this issue, I proposed two solutions:
+
+1. Store the last visited tab in session or local storage. Upon a page refresh, retrieve this information to redirect the user to the appropriate tab.
+2. Use query parameters in the URL, such as `REPORT_URL/?tab=expenses`, `REPORT_URL/?tab=comments`, or `REPORT_URL/?tab=history`. This way, we can easily determine the last tab the user was on.
+
+The first solution was lots of resource-demanding, particularly for organizations with a large volume of reports storing the last visited tab for each report in local storage could consume significant storage, especially in the worst cases. Consequently, we opted for the second solution.
+
+I implemented the chosen solution within a few days and it's now live in production. Feel free to explore and submit your report and read the comments and history without any inconvenience. 
+
+Until next time, happy expense management 😂!
